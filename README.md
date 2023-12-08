@@ -5,33 +5,33 @@
 
 1. Vritual Environments
 
-  2. Set up a virtual environment
+  - Set up a virtual environment
   ```sh
   python -m venv env
   ```
   
-  2. Activate the virtual environment    
+  - Activate the virtual environment    
   ```sh
   source env/bin/activate
   ```
 
-1. Django Setup
-  2.  Install Django  
+2. Django Setup
+  -  Install Django  
   ```sh
   python -m pip install django
   ```
 
-  2. Pin your dependencies   
+  - Pin your dependencies   
   ```sh
   python -m pip freeze > requirements.txt
   ```
 
-1. Set up a Django project 
+3. Set up a Django project 
 ```sh
 django-admin startproject <projectname>
 ```
 
-1. Start a Django app  
+4. Start a Django app  
 ```sh
 python manage.py startapp <appname>
 ```
